@@ -1,4 +1,4 @@
-## OV Cirrus API Demo
+## OmniVista Cirrus 10.3 API Demo
 
 - Create AppId/AppSecret from your OmniVista Cirrus 10.3 User Profile
 - Adapt/Create ovc_application_settings.json from (-example)

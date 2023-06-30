@@ -21,7 +21,6 @@ def api_login():
     #user_sites = user_sites.json()
     #print(user_sites["data"][0]["id"])
     # organization & site, not the IDs
-    #devices = req.get(f"{ovc_url}/api/ov/v1/organizations/623a6138b05dd4a8ecbe92fe/sites/623a62c9b05dd40f99be930b/devices")
     devices = req.get(f"{ovc_url}/api/ov/v1/organizations/{user_organizations.json()['data'][0]['organization']}/sites/{user_sites.json()['data'][0]['site']}/devices")
     print(json.dumps(devices.json(), indent=4))
 
